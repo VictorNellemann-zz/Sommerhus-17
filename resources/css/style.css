@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+html {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.08rem;
+}
+
+/*Header*/
+
+header {
+
+}
+
+/*Standard fonte*/
+
+h2 {
+  font-family: Crimson;
+  font-size: 1.8rem;
+  color: #4040040;
+  font-style: italic;
+}
+
+/*website color-palette*/
+
+#site-elements {
+  display: inline-flex;
+  align-items: center;
+}
+
+.color-palette {
+  width: 25px;
+  height: 25px;
+  margin: 5px 0 5px 5px  ;
+}
+
+.color-palette.dark {
+  background-color: #404040;
+}
+
+.color-palette.yellow {
+  background-color: #FFEB55;
+}
+
+.color-palette.red {
+  background-color: #B23C58;
+}
+
+.color-palette.light {
+  background-color: #E6EFF2;
+}
+
+.color-palette.blue {
+  background-color: #187DB2;
+}
